@@ -9961,7 +9961,7 @@ section#vision {
   background-image: url("https://raw.githubusercontent.com/megakb888/ko-sidan-ivy/master/src/app/assets/img/vision.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
-  background-position: center bottom;
+  background-position: center;
   background-size: cover;
 }
 section#vision .section-heading {
