@@ -10,6 +10,7 @@ export class AppComponent {
 
   @ViewChild("henrik", { static: false }) henrik;
   @ViewChild("vision", { static: false }) vision;
+  @ViewChild("process", { static: false }) process;
 
   navigate(element: string) {
     this[element].nativeElement.scrollIntoView({ behavior: "smooth" });
