@@ -9973,7 +9973,7 @@ section#levererar {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("https://kbwxo.se/levererar.jpg");
+  background-image: url("https://raw.githubusercontent.com/megakb888/ko-sidan-ivy/master/src/app/assets/img/levererar.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -9985,7 +9985,7 @@ section#levererar .section-heading {
 
 section#kontakt {
   background-color: #212529;
-  background-image: url("https://kbwxo.se/levererar.jpg");
+  background-image: url("https://raw.githubusercontent.com/megakb888/ko-sidan-ivy/master/src/app/assets/img/levererar.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
