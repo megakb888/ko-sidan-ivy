@@ -1,0 +1,351 @@
+<app-header (Navigate)="navigate($event)"></app-header>
+<header class="masthead">
+    <div class="container">
+        <div class="masthead-subheading">Välkommen till ett Öppet Nät</div>
+        <div class="masthead-heading text-uppercase"></div>
+        <a class="btn btn-success btn-xl text-uppercase" (click)="navigate('henrik')">Läs mer</a>
+    </div>
+</header>
+<!-- HK-->
+<section #henrik class="page-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle"
+                        src="assets/img/hk.png" alt="Henrik" />
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <h2 class="latin">"Vi ska erbjuda god rådgivning, ha en nära relation till våra
+                partners och vi vill vara en naturlig del i processen"
+            </h2>
+        </div>
+        <div class="team-member">
+            <h4>Henrik Kjellberg</h4>
+            <p class="text-muted">Säljansvarig Öppet Nät</p>
+        </div>
+    </div>
+</section>
+<!-- Vision-->
+<section class="page-section" #vision >
+    <div class="container">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Vår Vision</h2>
+                <h3 style="font-color:white;" class="section-subheading text-white">Vår vision är att
+                    vara marknadens smidigaste kommunikationsoperatör - vår partners förstahandsval.
+                </h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                     <span class="fa-stack fa-4x"><i style="color:white;" class="fa fa-star"></i></span>
+                    <h4 class="my-3 text-white">Långsiktighet</h4>
+                    <h3 class="section-subheading text-white">Viktigt är att långsiktighet får en
+                        central plats i upphandlingarna.</h3>
+                </div>
+                <div class="col-md-6">
+                     <span class="fa-stack fa-4x"><i style="color:white;" class="fa fa-star"></i></span>
+                    <h4 class="my-3 text-white">Flexibilitet</h4>
+                    <h3 class="section-subheading text-white">Det är vår partner som bestämmer den
+                        slutgiltiga utformningen av tjänsten.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                     <span class="fa-stack fa-4x"><i style="color:white;" class="fa fa-star"></i></span>
+                    <h4 class="my-3 text-white">Rådgivning</h4>
+                    <h3 class="section-subheading text-white">Är systemet lämpligt för ändamålet? Vår
+                        tekniska rådgivning ger svar.</h3>
+                </div>
+                <div class="col-md-6">
+                     <span class="fa-stack fa-4x"><i style="color:white;" class="fa fa-star"></i></span>
+                    <h4 class="my-3 text-white">Service</h4>
+                    <h3 class="section-subheading text-white">Personlig service med våra partners,
+                        behövs vi på plats så är vi där.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Process-->
+<section class="page-section" #process>
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Process</h2>
+            <br />
+            <br />
+        </div>
+        <ul class="timeline">
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
+                        src="https://kbwxo.se/1.jpg" alt="" />
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Net at Once och fastighetsägaren etablerar kontakt</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">Vår projektgrupp bokar möte med fastighetsägaren. På så
+                            sätt kan vi planera den kommande fiberutbyggnaden bättre.
+                            Vi ger förslag på alternativ av anslutningar och utrustning som passar för
+                            kundens behov.
+                        </p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
+                        src="https://kbwxo.se/2.jpg" alt="" />
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Planeringsfas</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">Planering för deltagande i projekt och informationsmöten med hyres-gästerna men också informationsinsamling och dokumentation. Vi fastställer leveransdatum för fiber till fastigheten. I samband med detta schemaläggs den fasta installationen av mediaomvandlaren (CPE) till varje bostad.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
+                        src="https://kbwxo.se/3.jpg" alt="" />
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Fiberbeställning till fastighet görs</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">Beställning av fiber till fastighet sker som senast 60 dagar innan inflyttning. Fiber måste finnas på plats innan vi kan installera och testköra fibertjänsterna.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
+                        src="https://kbwxo.se/4.jpg" alt="" />
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Installation och test av utrustning</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">Vi installerar switchar och monterar CPE i fastigheten samt testar att nätet fungerar till varje lägenhet. Dokumentation görs över fastighetens installerade utrustning.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
+                        src="https://kbwxo.se/5.jpg" alt="" />
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Informationsmöte</h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">Deltagande i inplanerade informationsmöten, med hyresgästerna, i syfte att underlätta för de som eventuellt vill ha hjälp med aktivering av sina bredbandstjänster.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image"><img class="rounded-circle img-fluid"
+                        src="https://kbwxo.se/6.jpg" alt="" />
+                </div>
+                <div class="timeline-panel">
+                    <div class="timeline-heading">
+                        <h4>Underhåll på aktiv fiberanslutning</h4>
+                        <h4 class="subheading"></h4>
+                    </div>
+                    <div class="timeline-body">
+                        <p class="text-muted">Drift och underhåll är mycket viktigt för att säkra långsiktighet och stabilitet i nätet. Vi skapar rutiner för övervakningen i den aktiva utrustningen. Utrustningen hos slutkunden ger möjlighet till nätövervakning av den enskilda förbindelsen. Vi håller våra partners uppdaterade angående framtida driftstörningar eller akuta problem.</p>
+                    </div>
+                </div>
+            </li>
+            <li class="timeline-inverted">
+                <div class="timeline-image">
+                    <h4>Ett<br /> lyckat<br />samarbete</h4>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- Infomöte-->
+<section class="page-section bg-light" #info>
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Informationsmöte</h2>
+            <h3 class="section-subheading text-muted">För att användaren ska få en positiv upplevelse informerar vi på plats hur beställningsprocessen går till.</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Demo</div>
+                        <br />
+                        <div class="portfolio-caption-subheading text-muted">Vi går igenom registreringsproceduren och hur tjänsteväljaren fungerar. Vi informerar också om vem användaren ska kontakta om registreringen strular.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Support / Felanmälan</div>
+                        <br />
+                        <div class="portfolio-caption-subheading text-muted">När användarens bredband slutar fungera, TV’n saknar kanaler eller att användaren glömt Wi-Fi lösenordet. Vi informerar om hur användaren ska felanmäla sin tjänst.</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 mb-4">
+                <div class="portfolio-item">
+                    <div class="portfolio-caption">
+                        <div class="portfolio-caption-heading">Vilken tjänst ska jag välja?</div>
+                        <br />
+                        <div class="portfolio-caption-subheading text-muted">Tjänsteleverantörerna på plats presenterar tjänster och informerar om eventuella kampanjer som de erbjuder.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Vi levererar-->
+<section class="page-section" #levererar>
+    <div class="container">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Vi levererar</h2>
+                <h3 style="font-color:white;" class="section-subheading text-white">Vi levererar den tjänst vår partner efterfrågar.
+                </h3>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x"><i style="color:white;" class="fa fa-star"></i></span>
+                    <h4 class="my-3 text-white">Hållbarhet</h4>
+                    <h3 class="section-subheading text-white">Vi använder bara utrustning och system som är framtagna för att hålla och är säkrade för framtidens internetanvändning.</h3>
+                </div>
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x"><i style="color:white;" class="fa fa-star"></i></span>
+                    <h4 class="my-3 text-white">Funktion</h4>
+                    <h3 class="section-subheading text-white">För att få alla funktioner i tjänsteväljaren som vi krävde så utvecklade vi den själva.</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x"><i style="color:white;" class="fa fa-star"></i></span>
+                    <h4 class="my-3 text-white">Kvalité</h4>
+                    <h3 class="section-subheading text-white">Kvalitet kostar inte pengar, det är bristande kvalitet som är dyrt! Vi använder bara beprövad utrustning i våra installationer.</h3>
+                </div>
+                <div class="col-md-6">
+                    <span class="fa-stack fa-4x"><i style="color:white;" class="fa fa-star"></i></span>
+                    <h4 class="my-3 text-white">Frihet</h4>
+                    <h3 class="section-subheading text-white">Alla användare ska ha friheten att själva välja tjänsteleverantör i nätet.</h3>
+                </div>
+            </div>
+                        <div class="row text-center">
+                <div class="col-md-12">
+                    <span class="fa-stack fa-4x"><i style="color:white;" class="fa fa-star"></i></span>
+                    <h4 class="my-3 text-white">Stressfritt</h4>
+                    <h3 class="section-subheading text-white">Skötseln av nätet och alla tekniska detaljer hanteras på ett effektivt sätt.</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Säljare-->
+<section class="page-section bg-light" #team>
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Vår säljavdelning</h2>
+            <h3 class="section-subheading text-muted">Är ni intresserade? Kontakta våra duktiga säljare.</h3>
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle"
+                        src="https://kbwxo.se/sj.jpg" alt="" />
+                    <h4>Stefan Johansson</h4>
+                    <p class="text-muted">Säljchef</p>
+                    <a class="btn btn-dark btn-social mx-2" href="mailto:sales@netatonce.se"><i class="fa fa-envelope"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="tel:0771-404400"><i class="fa fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="team-member">
+                    <img class="mx-auto rounded-circle"
+                        src="assets/img/hk.png" alt="Henrik" />
+                    <h4>Henrik Kjellberg</h4>
+                    <p class="text-muted">Säljansvarig Öppet Nät</p>
+                    <a class="btn btn-dark btn-social mx-2" href="mailto:henrik.kjellberg@netatonce.se"><i class="fa fa-envelope"></i></a>
+                    <a class="btn btn-dark btn-social mx-2" href="tel:0470-592740"><i class="fa fa-phone"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Referenser-->
+<section class="py-5">
+    <div class="container">
+            <div class="text-center">
+                <h3 class="section-heading text-muted">Några referenser</h3>
+            </div>
+        <div class="row">
+            <div class="col-md-3 col-sm-6 my-3">
+                <img class="img-fluid d-block mx-auto" src="https://kbwxo.se/ref1.jpg" alt="" />
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <img class="img-fluid d-block mx-auto" src="https://kbwxo.se/ref1.jpg" alt="" />
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <img class="img-fluid d-block mx-auto" src="https://kbwxo.se/ref1.jpg" alt="" />
+            </div>
+            <div class="col-md-3 col-sm-6 my-3">
+                <img class="img-fluid d-block mx-auto" src="https://kbwxo.se/ref1.jpg" alt="" />
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Kontakta oss-->
+<section class="page-section" #kontakt>
+    <div class="container">
+        <div class="text-center">
+            <h2 class="section-heading text-uppercase">Kontakta oss</h2>
+            <h3 class="section-subheading text-white">I formuläret nedan kan du skicka meddelande direkt till vår säljavdelning.</h3>
+        </div>
+        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+            <div class="row align-items-stretch mb-5">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <input class="form-control" id="name" type="text" placeholder="Namn/Företag *"
+                            required="required"
+                            data-validation-required-message="Var god och fyll i ert namn." />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group">
+                        <input class="form-control" id="email" type="email" placeholder="E-post *"
+                            required="required"
+                            data-validation-required-message="Var god och fyll i en E-postadress." />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                    <div class="form-group mb-md-0">
+                        <input class="form-control" id="phone" type="tel" placeholder="Telefonnummer *"
+                            required="required"
+                            data-validation-required-message="Var god och fyll i ert telefonnummer." />
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group form-group-textarea mb-md-0">
+                        <textarea class="form-control" id="message" placeholder="Meddelande *"
+                            required="required"
+                            data-validation-required-message="Var god och fyll i ett meddelande."></textarea>
+                        <p class="help-block text-danger"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <div id="success"></div>
+                <button class="btn btn-success btn-xl text-uppercase" id="sendMessageButton"
+                    type="submit">Skicka meddelande</button>
+            </div>
+        </form>
+    </div>
+</section>

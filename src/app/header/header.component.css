@@ -1,0 +1,12 @@
+.header {
+  margin-top: 60px;
+}
+.logo-color-header  {
+  fill:rgb(255, 255, 255);
+}
+.nav-item a {
+  color:rgb(255, 255, 255);
+}
+.navbar-inverse {
+  background-color: #212529;
+}
