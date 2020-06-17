@@ -29,13 +29,12 @@ c3.9,0,5.4-3.4,5.6-6.8L275.7,32.8z" />
                 class="fa fa-bars ml-1"></i></button>
         <div class="collapse navbar-collapse" id="navbarResponsive" [ngClass]="{ 'show': navbarOpen }">
             <ul class="navbar-nav text-uppercase ml-auto">
-                <li class="nav-item"><a class="nav-link" (click)="navigate('vision')">Vår Vision</a></li>
-                <li class="nav-item"><a class="nav-link" (click)="navigate('process')">Process</a></li>
-                <li class="nav-item"><a class="nav-link" (click)="navigate('info')">Infomöte</a></li>
-                <li class="nav-item"><a class="nav-link" (click)="navigate('levererar')">Vi levererar</a></li>
-                <li class="nav-item"><a class="nav-link" (click)="navigate('team')">Vårt Team</a></li>
-                <li class="nav-item"><a class="nav-link" (click)="navigate('kontakt')">Kontakta oss</a></li>
-
+                <li class="nav-item"><a class="nav-link" role="button" (click)="navigate('vision')">Vår Vision</a></li>
+                <li class="nav-item"><a class="nav-link" role="button" (click)="navigate('process')">Process</a></li>
+                <li class="nav-item"><a class="nav-link" role="button" (click)="navigate('info')">Infomöte</a></li>
+                <li class="nav-item"><a class="nav-link" role="button" (click)="navigate('levererar')">Vi levererar</a></li>
+                <li class="nav-item"><a class="nav-link" role="button" (click)="navigate('team')">Vårt Team</a></li>
+                <li class="nav-item"><a class="nav-link" role="button" (click)="navigate('kontakt')">Kontakta oss</a></li>
             </ul>
         </div>
     </div>
